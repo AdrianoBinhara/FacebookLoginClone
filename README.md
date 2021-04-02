@@ -20,8 +20,8 @@ com autenticação para validar o usuário.
 
 ---
 ### 📺 Entre em contato comigo
-[instagram]: https://instagram.com/binhara
-[linkedin]: https://www.linkedin.com/in/adrianodlucca/
+[<img align="left" alt="binhara | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="binhara | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 </details>
 
 [youtube]: https://www.youtube.com/channel/UCLKnx5qX7XsOUUmPedGtz3Q/videos
