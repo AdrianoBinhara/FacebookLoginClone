@@ -19,7 +19,7 @@ com autenticação para validar o usuário.
 <!-- YOUTUBE:END -->
 
 ---
-### 📺 Entre em contato comigo
+### 🤘 Entre em contato comigo
 [<img align="left" alt="binhara | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 [<img align="left" alt="binhara | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 </details>
