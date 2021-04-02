@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="LoginClone.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    NavigationPage.HasNavigationBar="False"
+    mc:Ignorable="d">
+    <FlexLayout
+        Padding="0,40"
+        AlignItems="Center"
+        Direction="Column"
+        JustifyContent="Center">
+
+        <FlexLayout
+            x:Name="ImageFlex"
+            AlignItems="Center"
+            Direction="Column"
+            FlexLayout.Grow="1"
+            JustifyContent="Center">
+            <Frame
+                Padding="0"
+                CornerRadius="10"
+                HasShadow="False"
+                HeightRequest="100"
+                IsClippedToBounds="True"
+                WidthRequest="100">
+                <Image BackgroundColor="red" Source="https://avatars.githubusercontent.com/u/62717202?v=4" />
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+            </Frame>
+
+            <Label
+                x:Name="labelName"
+                FontAttributes="Bold"
+                Text="Adriano Binhara"
+                TextColor="Black" />
+        </FlexLayout>
+
+        <FlexLayout
+            x:Name="PasswordFlex"
+            Margin="15,0"
+            d:IsVisible="true"
+            AlignItems="Center"
+            Direction="Column"
+            FlexLayout.Grow="1"
+            IsVisible="false"
+            JustifyContent="Center">
+            <Label Text="Enter your password" TextColor="Black" />
+            <Entry
+                Margin="0,5"
+                FlexLayout.AlignSelf="Stretch"
+                Placeholder="Password"
+                PlaceholderColor="Gray" />
+            <Button
+                Margin="0,5"
+                BackgroundColor="#1865f2"
+                FlexLayout.AlignSelf="Stretch"
+                Text="Login"
+                TextColor="White" />
+        </FlexLayout>
+        <Button
+            HeightRequest="20"
+            ImageSource="Vector"
+            TextColor="#1856f2" />
+        <Button Text="Log Into Another Account" TextColor="#1856f2" />
+        <Button Text="Sign Up for Facebook" TextColor="#1856f2" />
+    </FlexLayout>
+</ContentPage>
